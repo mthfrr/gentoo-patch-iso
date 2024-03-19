@@ -1,9 +1,9 @@
----
-lang: en
-title: Gentoo ISO patching tool
----
+<!-- vim: spelllang=en
+<!-- LTeX: language=en -->
 
-# About
+# Gentoo ISO patching tool
+
+## About
 
 This script modifies a bootable Gentoo ISO to facilitate unattended installation.
 
@@ -13,7 +13,7 @@ This script:
 - enables `sshd` at boot
 - adds the `ssh` public keys from a GitHub account to `authorized_keys`
 
-# Dependencies
+## Dependencies
 
 - cdrtools (mkisofs)
 - curl
@@ -22,7 +22,7 @@ This script:
 - sed
 - sudo
 
-# Usage
+## Usage
 
 Running this script requires `sudo` to be available.
 
