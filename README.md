@@ -27,6 +27,6 @@ This script:
 Running this script requires `sudo` to be available.
 
 ```sh
-#  /!\ edit the script to change your GitHub username
+# ⚠  edit the script to change your GitHub username
 ./patch.sh source.iso patched.iso
 ```
